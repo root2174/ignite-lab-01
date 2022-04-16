@@ -11,8 +11,8 @@ export class KafkaService
     super({
       client: {
         clientId: 'purchases',
-        brokers: [configService.get('KAFKA_BROKERS')],
-      },
+        brokers: [configService.get('KAFKA_BROKERS')]
+      }
     });
   }
 

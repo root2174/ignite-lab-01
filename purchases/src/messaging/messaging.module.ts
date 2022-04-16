@@ -5,6 +5,6 @@ import { KafkaService } from './kafka.service';
 @Module({
   imports: [ConfigModule.forRoot()],
   providers: [KafkaService],
-  exports: [KafkaService],
+  exports: [KafkaService]
 })
 export class MessagingModule {}
